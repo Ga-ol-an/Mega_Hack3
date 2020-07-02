@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.css";
 
-import logo_arvore from "../../logo_arvore.svg";
+import logo_arvore from "../../Assets/logo_arvore.svg";
 
 export default function Header() {
     return (

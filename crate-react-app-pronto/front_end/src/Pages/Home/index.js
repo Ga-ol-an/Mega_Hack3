@@ -4,7 +4,19 @@ import "./style.css";
 
 import Header from "../../Components/Header";
 
-import linha_roxa from "../../negocio_roxo.png";
+import linha_roxa from "../../Assets/negocio_roxo.png";
+
+import CardLivros from '../../Components/CardLivros'; 
+
+const DATA = [
+    {src:'src_img' ,key:1},
+    {src:'src_img' ,key:2},
+    {src:'src_img' ,key:3},
+    {src:'src_img' ,key:4},
+    {src:'src_img' ,key:5},
+    {src:'src_img' ,key:6},
+    {src:'src_img' ,key:7},
+]
 
 export default function Home() {
     return (
@@ -25,7 +37,8 @@ export default function Home() {
                 </div>
                 <div className='books'>
                 <h1>Destaques</h1>
-                <div className="carousel_book">carousel dos livro
+                <div className="carousel_book">
+                    <CardLivros src_img={DATA[0].src} key='teste' />
                 </div>
                 </div>
                 {/* Não apague essa< */}
