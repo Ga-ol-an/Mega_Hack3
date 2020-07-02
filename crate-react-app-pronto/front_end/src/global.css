@@ -1,0 +1,7 @@
+/* Inisira o Css global aqui */
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
