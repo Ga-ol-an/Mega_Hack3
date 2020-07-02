@@ -1,0 +1,54 @@
+.content_header .top_header{
+    height: 10vh;
+    /* color:#45cad0;*/
+    background-color:#45cad0;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.content_header .Search_bar{
+
+    width: 60%;
+    height: 60%;
+
+    margin: 10px;
+
+    border-radius: 10px;
+    border: 0;
+}
+
+.content_header .logo_arvore{
+    margin-left: 10px;
+}
+
+
+.content_header .Nome_foto{
+    width: 10%;
+    padding: 10px;
+
+    text-align: center;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.content_header .Nome_foto .quadrado{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    
+    display: flex;
+
+    align-items: center;
+}   
+
+.content_header .bot_header{
+    margin:0;
+    height: 5vh;
+    width: 100%;
+    background-color: #ccc;
+
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}

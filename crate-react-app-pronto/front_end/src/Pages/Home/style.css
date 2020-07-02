@@ -1,0 +1,25 @@
+.linha_roxa{
+    width: 80vw;
+
+    padding:30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha2{
+    height: 30px;
+    width: 100%;
+    background-color: violet;
+}
+.carousel_book{
+    width: 200vw;
+
+    height: 50vh;
+    background-color: yellow;
+}
+
+.escrito_linhaR{
+    
+}
