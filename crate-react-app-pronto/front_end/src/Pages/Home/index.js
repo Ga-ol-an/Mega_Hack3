@@ -12,7 +12,7 @@ import CardLivros from '../../Components/CardLivros';
 export default function Home() {
     return (
         <div>
-            {/* Não apague essa< */}
+
             <Header></Header>
 
             <div className="content_home"> 
@@ -32,7 +32,6 @@ export default function Home() {
                     <CardLivros/>
                 </div>
                 </div>
-                {/* Não apague essa< */}
             </div>
         </div>
     );
