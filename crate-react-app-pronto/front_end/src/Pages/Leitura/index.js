@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Header_leit from './Header_leitura'
+import HeaderLeit from './Header_leitura'
 
 import Pag_um from '../../Assets/livro_dom_casmurro.PNG'
 
@@ -11,7 +11,7 @@ export default function Ler() {
     return(
         <div className="content_ler">
             <div className="content_ler2">
-            <Header_leit></Header_leit>
+            <HeaderLeit></HeaderLeit>
 
             </div>
             <img src={Pag_um} alt='imagem_do_livro'/>

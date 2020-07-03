@@ -2,7 +2,6 @@ import React from "react";
 
 import Header from "./../../Components/Header";
 
-import Leitura from '../Leitura/Header_leitura'
 import {useHistory} from 'react-router-dom'
 
 import img1 from "./../../Assets/img_livro (1).jpg";
