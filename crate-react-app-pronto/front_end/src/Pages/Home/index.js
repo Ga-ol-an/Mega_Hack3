@@ -8,16 +8,6 @@ import linha_roxa from "../../Assets/negocio_roxo.png";
 
 import CardLivros from '../../Components/CardLivros'; 
 
-import { BlipChat } from "blip-chat-widget";
-
-function Chat() {
-    new BlipChat()
-    .withAppKey('YXJ2b3JlOjdkNjI2OTEwLWUyMTYtNDhhZC05ZDA4LWU2NDI0NTVhZjA1Ng==')
-    .withButton({"color":"#2CC3D5","icon":""})
-    .withCustomCommonUrl('https://chat.blip.ai/')
-    .build();
-}
-
 
 export default function Home() {
     return (
