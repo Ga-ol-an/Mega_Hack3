@@ -2,11 +2,17 @@ import React from "react";
 
 import Header from "./../../Components/Header";
 
+import Leitura from '../Leitura/Header_leitura'
+import {useHistory} from 'react-router-dom'
+
 import img1 from "./../../Assets/img_livro (1).jpg";
 
 import "./style.css";
 
 export default function Livro() {
+
+    let history=useHistory();
+
     return (
         <div>
             <Header></Header>
@@ -35,7 +41,7 @@ export default function Livro() {
                     <div className="botoes">
                         <button>botao 1</button> 
                         <button>botao 2</button> 
-                        <button>botao 3</button> 
+                        <button onClick={()=>{history.push('./leitura')}}>botao 3</button> 
                     </div>
                 </div>
             </div>
