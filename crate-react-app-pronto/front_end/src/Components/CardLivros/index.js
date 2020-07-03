@@ -8,11 +8,12 @@ import img2 from './../../Assets/img_livro (2).jpg'
 import img3 from './../../Assets/img_livro (3).jpg'
 import img4 from './../../Assets/img_livro (4).jpg'
 import img5 from './../../Assets/img_livro (5).jpg'
-/* import img6 from './../../Assets/img_livro (6).jpg'
-import img7 from './../../Assets/img_livro (7).jpg'
- */
+import img6 from './../../Assets/img_livro (6).jpg'
+
+/* import img7 from './../../Assets/img_livro (7).jpg' */
+
 /* Vou receber o link de uma imagem */
-const IMAGES= [img1,img2,img3,img4,img5]
+const IMAGES= [img1,img2,img3,img4,img5, img6]
 
 export default (props)=>{
     function livros(){
