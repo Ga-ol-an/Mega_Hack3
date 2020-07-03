@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./style.css";
-
+import {FiCircle} from 'react-icons/fi';
 import logo_arvore from "../../Assets/logo_arvore.svg";
 
 export default function Header() {
@@ -19,7 +19,9 @@ export default function Header() {
                     placeholder="Pesquise pelo titulo, autor, categoria, etc"
                 />
                 <div className="Nome_foto">
-                    <div className="quadrado"></div>
+                    <FiCircle width={30} height={30} display={'flex'}
+                     alignmentBaseline={'center'}
+                     color={'#333'}/>
                     Nome e foto
                 </div>
             </div>
