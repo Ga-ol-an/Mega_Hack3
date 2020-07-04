@@ -6,8 +6,15 @@
     display: flex;
     justify-content: space-between;
 
+
+
 }
-.content_header .Search_bar{
+.content_header .top_header .logo_arvore{
+    margin-left: 10px;
+}
+
+
+.content_header .top_header .Search_bar{
 
     width: 60%;
     height: 60%;
@@ -18,12 +25,8 @@
     border: 0;
 }
 
-.content_header .logo_arvore{
-    margin-left: 10px;
-}
 
-
-.content_header .Nome_foto{
+.content_header .top_header .Nome_foto{
     width: 10%;
     padding: 10px;
 
@@ -34,7 +37,7 @@
     align-items: center;
 }
 
-.content_header .Nome_foto .quadrado{
+.content_header .top_header .Nome_foto .quadrado{
     width: 30px;
     height: 30px;
     background-color: black;
@@ -46,9 +49,9 @@
 
 .content_header .bot_header{
     margin:0;
-    height: 5vh;
+    height: 3vh;
     width: 100%;
     background-color: #ccc;
 
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+   background-color: rgba(0,0,0,0.1);
 }

@@ -2,15 +2,14 @@ import React from "react";
 
 import Header from "./../../Components/Header";
 
-import {useHistory} from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 
 import img1 from "./../../Assets/img_livro (1).jpg";
 
 import "./style.css";
 
 export default function Livro() {
-
-    let history=useHistory();
+    let history = useHistory();
 
     return (
         <div>
@@ -38,9 +37,15 @@ export default function Livro() {
                         gerações de leitores de uma... Ver mais
                     </div>
                     <div className="botoes">
-                        <button>botao 1</button> 
-                        <button>botao 2</button> 
-                        <button onClick={()=>{history.push('./leitura')}}>botao 3</button> 
+                        <button>Favoritar</button>
+                        <button>Indicar </button>
+                        <button
+                            onClick={() => {
+                                history.push("./leitura");
+                            }}
+                        >
+                            Aperte aqui para ler!
+                        </button>
                     </div>
                 </div>
             </div>

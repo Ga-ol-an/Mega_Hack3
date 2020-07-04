@@ -17,6 +17,7 @@ const IMAGES= [img1,img2,img3,img4,img5, img6]
 
 export default (props)=>{
     let history = useHistory();
+    let keey= 1;
 
 
     function livros(){
@@ -26,7 +27,9 @@ export default (props)=>{
 
             <img src={image} alt={`imagessss`} onClick={()=>{
                 history.push('/livro')
-            }}/>
+            }}
+            key={keey++}
+            />
 
            );
        })

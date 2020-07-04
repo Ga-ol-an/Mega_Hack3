@@ -26,11 +26,9 @@
     border-radius: 10px;
 }
 
-.carousel_book{
-    height: 50vh;
-}
 
-.escrito_linhar{
+
+.content_home .linha_roxa .linha2 .escrito_linhar{
    
     min-height: 30px;
     min-width: 251px;
@@ -41,8 +39,12 @@
     width: 251px; */
 }
 
-.books{
+.content_home .books{
     width: 90%;
     margin: auto;
 
+}
+
+.content_home .books .carousel_book{
+    height: 50vh;
 }

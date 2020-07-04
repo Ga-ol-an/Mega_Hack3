@@ -5,14 +5,18 @@ import {Link} from 'react-router-dom';
 import Logo from '../../Assets/Logo_img_leitura4.svg';
 import {FiArrowLeft} from 'react-icons/fi';
 
-export default function Ler() {
+import {useHistory} from 'react-router-dom'
 
+export default function Ler() {
+    let history = useHistory();
     return(
         <div className="content_header_leit">
-            <img src={Logo} alt="logogg" className="logo"/>
+            <img src={Logo} alt="logo" className="logo"/>
             <Link className="voltar">
                 <FiArrowLeft/>
-                Voltar
+                <button className="voltar" onClick={()=>{history.push('/livro')}}>
+                    Voltar
+                </button>
             </Link>
 
         </div>

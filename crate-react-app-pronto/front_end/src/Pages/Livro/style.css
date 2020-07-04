@@ -1,40 +1,29 @@
-.content_pag_livro{
+.content_pag_livro {
     width: 80%;
     height: 80%;
 
     margin: auto;
     padding: 30px;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
-.content_pag_livro .image{
+.content_pag_livro .image {
     height: 80vh;
     width: 40%;
     padding-right: 10px;
 }
 
-.content_pag_livro .image .capa_livro{
+.content_pag_livro .image .capa_livro {
     width: 100%;
-
 }
 
-.content_pag_livro .descricao{
+.content_pag_livro .descricao {
     width: 60%;
     height: 50vh;
-  /*   background-color: blue; */
-
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
-
-/* .content_pag_livro .descricao .infos{
-    padding-bottom:40px;
-
-} */

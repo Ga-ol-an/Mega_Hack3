@@ -22,7 +22,7 @@ export default function Header() {
                     <FiCircle width={30} height={30} display={'flex'}
                      alignmentBaseline={'center'}
                      color={'#333'}/>
-                    Nome e foto
+                     Vinícius
                 </div>
             </div>
             <div className="bot_header">
