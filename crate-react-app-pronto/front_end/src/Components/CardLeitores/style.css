@@ -1,0 +1,10 @@
+.todos_leitores{
+    display: flex;
+    justify-content: space-between;
+}
+.leitores{
+    border-radius: 50%;
+    width: 15vh;
+
+
+}

@@ -4,7 +4,9 @@ import Header from "./../../Components/Header";
 
 import { useHistory } from "react-router-dom";
 
-import img1 from "./../../Assets/img_livro (1).jpg";
+import Leitoreslivro from "./../../Components/CardLeitores";
+
+import img1 from "./../../Assets/Livros/img_livro (1).jpg";
 
 import "./style.css";
 
@@ -14,6 +16,10 @@ export default function Livro() {
     return (
         <div>
             <Header></Header>
+            <div className="leitores_mensais">
+                <h3>Pessoas que leram esse livro nessa semana:</h3>
+                    <Leitoreslivro></Leitoreslivro>
+            </div>
             <div className="content_pag_livro">
                 <div className="image">
                     <img src={img1} alt="capa" className="capa_livro" />
@@ -27,7 +33,9 @@ export default function Livro() {
                         <div className="editora">Editora: Árvore de Livros</div>
                     </div>
 
-                    <div className="retangulo_rosa">o retangulo rosa aqui</div>
+                    <div className="retangulo_rosa">
+                        (o retangulo rosa aqui)
+                    </div>
 
                     <div className="resumo">
                         Um dos maiores clássicos da literatura brasileira
