@@ -8,7 +8,7 @@ import {FiArrowLeft} from 'react-icons/fi';
 export default function Ler() {
 
     return(
-        <div className="content_header">
+        <div className="content_header_leit">
             <img src={Logo} alt="logogg" className="logo"/>
             <Link className="voltar">
                 <FiArrowLeft/>
