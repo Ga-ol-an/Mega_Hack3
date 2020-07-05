@@ -1,4 +1,7 @@
 <img src="https://www.megahack.com.br/wp-content/themes/megahacklang/img/logo-branco.png">
+	
+Aqui nesse repositório temos o projeto feito pelo time 49, em que programamos em react um esboço do site, e trabalhamos também em
+um chatbot interativo que possa engajar e atrair os usuários ás leituras.
 
 <h1> Mega_Hack3 </h1>
 
