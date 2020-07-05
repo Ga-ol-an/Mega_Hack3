@@ -13,12 +13,12 @@ um chatbot interativo que possa engajar e atrair os usuários ás leituras.</p>
 
 <p>Recepcionar o usuário com interações para construção de um “briefing” de leitura;
 Registrar todas as variáveis que envolvem a leitura, para construir métricas de acompanhamento.
-[afinal cada leitor tem tempo e velocidade próprios durante uma leitura;
+Afinal cada leitor tem tempo e velocidade próprios durante uma leitura;
 A partir de métricas pré-definidas terá a função de qualificar e conectar com leitores desestimulados e a
 partir de regras de gamificação, restabelecer a leitura deste usuário</p>
-Códigos do Mega App 3
 
-<h2>Tecnologias Usadas</h2>
+
+<h2>Tecnologias Usadas/Códigos do Mega App 3</h2>
 
 <div>
 	<li>JavaScript</li>
